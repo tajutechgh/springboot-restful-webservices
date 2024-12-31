@@ -4,7 +4,7 @@ services:
     image: mysql
     environment:
       MYSQL_DATABASE: employeedb
-      MYSQL_ROOT_PASSWORD: 1432aziz
+      MYSQL_ROOT_PASSWORD: password
     networks:
       - springboot-mysql-net
 
